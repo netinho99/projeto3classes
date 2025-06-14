@@ -1,6 +1,8 @@
 # projeto3classes
 Esse projeto/treinamento/estudos eu vi no youtube e criei o código junto em 5 aulas vou resumir:
 
+link para o site: https://projeto3classes.vercel.app
+
 🎮 Projeto: Bolinhas Animadas no Palco
 
 Este projeto cria várias bolas coloridas e animadas dentro de uma área (palco), onde elas se movimentam, colidem entre si e com as bordas da tela. Você pode adicionar e remover essas bolas usando botões.
