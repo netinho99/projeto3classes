@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+#controles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.controle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controle label {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.controle input[type="number"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 16px;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+}
+#num_objetos {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 5px;
+}
+#palco {
+    position: relative;
+    width: 90%;
+    height: 70vh;
+    margin-top: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.bola {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.1s ease-in-out;
+}
+.bola:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
